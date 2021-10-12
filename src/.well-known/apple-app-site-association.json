@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "7TT6SQL29F.co.argosone.usa",
+                "paths": [ "/hello/*"]
+            }
+        ]
+    }
+}
