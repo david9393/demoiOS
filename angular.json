@@ -7,13 +7,12 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
-          "strict": true
+          "strict": false
         }
       },
       "root": "",
-      "sourceRoot": "src",
-      "prefix": "app",
-      "architect": {
+      "sourceRoot": "src",     
+       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
@@ -24,7 +23,8 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/.well-known"
             ],
             "styles": [
               "src/styles.css"
